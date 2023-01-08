@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+
+}
+.container .slide{
+    position:absolute;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+.slide.slide1{
+    background-image: url(tree-g4f7360a4e_1280.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.slide.slide2{
+    background-image: url(town-g8fb65ada3_1920.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    
+}
